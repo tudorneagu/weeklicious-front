@@ -4,7 +4,7 @@ import { getAccessToken } from "./tokenService";
 import getApiUrl from "./getApiUrl.native";
 
 const axiosInstance = axios.create({
-  baseURL: "http://localhost:3000/api",
+  baseURL: "http://localhost:3000/",
   withCredentials: true,
   headers: {
     "Content-Type": "application/json",
