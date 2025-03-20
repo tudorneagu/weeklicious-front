@@ -1,0 +1,29 @@
+{
+  "compilerOptions": {
+    "strict": true,
+    "baseUrl": ".",
+    "paths": {
+      "@/*": [
+        "../*"
+      ],
+      "@packages/*": [
+        "../packages/*"
+      ],
+      "@components/*": [
+        "components/*"
+      ]
+    }
+  },
+  "include": [
+    "**/*.ts",
+    "**/*.tsx",
+    "../packages/**/*",
+    "../vrac/app/login.tsx",
+    "../vrac/_layout.tsx",
+    "../vrac/components/MainButton.tsx",
+    "../vrac/components/InputField.tsx",
+    ".expo/types/**/*.ts",
+    "expo-env.d.ts"
+  ],
+  "extends": "expo/tsconfig.base"
+}

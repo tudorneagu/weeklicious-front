@@ -1,0 +1,20 @@
+{
+  "name": "store",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Weeklicious Redux Store",
+  "main": "dist/store.js",
+  "types": "dist/store.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.26.10",
+    "@reduxjs/toolkit": "^1.9.1",
+    "react-redux": "^8.0.0",
+    "redux": "^4.2.0"
+  },
+  "author": "",
+  "license": "ISC"
+}

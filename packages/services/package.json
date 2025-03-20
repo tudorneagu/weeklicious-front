@@ -1,0 +1,20 @@
+{
+  "name": "weeklicious_api_services",
+  "version": "1.0.0",
+  "description": "Weeklicious api services calls",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Weeklicious Team",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/runtime": "^7.26.10",
+    "axios": "^1.8.2",
+    "dotenv": "^16.4.7",
+    "expo-constants": "^17.0.8"
+  },
+  "devDependencies": {
+    "@types/node": "^22.13.10"
+  }
+}

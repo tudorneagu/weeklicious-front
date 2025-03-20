@@ -1,0 +1,17 @@
+{
+  "name": "weeklicious_hooks",
+  "version": "1.0.0",
+  "description": "Weeklicious App hooks",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Weeklicious Team",
+  "license": "ISC",
+  "peerDependencies": {
+    "react": ">=18",
+    "react-native": ">=0.70",
+    "@tanstack/react-query": ">=5",
+    "@babel/runtime": "^7.26.10"
+  }
+}

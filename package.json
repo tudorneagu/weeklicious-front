@@ -1,0 +1,22 @@
+{
+  "name": "weeklicious-front",
+  "version": "1.0.0",
+  "description": "Weeklicious App",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tudorneagu/weeklicious-front.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tudorneagu/weeklicious-front/issues"
+  },
+  "homepage": "https://github.com/tudorneagu/weeklicious-front#readme",
+  "dependencies": {
+    "@babel/runtime": "^7.26.10"
+  }
+}
